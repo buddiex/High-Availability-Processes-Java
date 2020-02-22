@@ -1,3 +1,3 @@
-- [ ] Reference related issue using key word `fix #[issue_number1], fix #[issue_number2]`.
+- [ ] Reference all related issues using key word `fix #[issue_number1], fix #[issue_number2]`,  and paste all glocard link of the referenced issues eg https://app.gitkraken.com/glo/board/XlDbp3V7egARLZ50/card/XlDpA3V7egARLZ_X .
 - [ ] Describe the changes proposed in the pull request.
 - [ ] Add atleast one reviewer and @mentions of the reviewer.
