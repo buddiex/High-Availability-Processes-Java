@@ -1,6 +1,21 @@
 # High-Availability-Processes-Java
+
+## Tuple Service
+## Summary
+this service provides a key value pair tuple service to clients.
+
+### Details
+- it a collection of alpha numeric keys and values tuples with at most one value per key.
+- provides operation GET, PUT, POST, DELETE
+- GET operation takes a tuple with a way to query the key or the values with a query expression eg. (keyexp, valexp). it returns all (key, value) tuples that matches the given expression.
+- PUT operation takes a list of (key, value) tuple and saves them if the keys do not exist. it returns all (key, value) that where not saved with proper 
+- PUT operation takes a list of (key, value) tuple and with proper error message.
+- DELETE operation takes a tuple with a way to query keys or the values with a query expression eg. (keyexp, valexp). it deletes all (key, value) pairs in the space that matches the keys or values query express
+- replies any unimplemented operation with appropriate error message
+
+
 ## Proxy Server
-### Summary:
+### Summary
 The proxy server receives requests from clients, maintains connections with clients, forwards request to primary server and tracks requests so they can be returned to originating client.
 
 ### Details:
