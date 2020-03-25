@@ -37,7 +37,7 @@ Same as primary excerpt argument 6 which is the process id of the primary server
 ###Phases of operations
 ####In the initialization phase:
 Initializes like primary without starting another backup.
-####Steady-state operation:
+####Steady-state operation:
 - Repeatedly accept and respond to requests from primary as per service requirements via its request SAP.
 - Periodically accept and respond to heartbeat messages from the primary.
 - On self-failure, or a shutdown message from primary it shut's down.
